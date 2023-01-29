@@ -1,0 +1,17 @@
+#Navber {
+  padding: 10px;
+}
+
+#Heder {
+  padding: 0px;
+}
+
+@media (min-width: 576px) {
+  #Heder-p {
+    font-size: 12px;
+  }
+}
+
+#Header-btn {
+}
+
