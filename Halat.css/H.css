@@ -841,4 +841,14 @@ thead {
   padding: 15px;  
   border: 3px solid #0990ff;  
 }
+.ms-1 {
+  opacity: 100%;
+  margin-left: 0.25rem!important;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
 
+.opacit{
+  opacity: 75%;
+}
