@@ -46,6 +46,45 @@ a{
   text-decoration: underline;
   font-size: larger;
 }
+.btn-b{
+  background-image: linear-gradient(147deg,  #3392f2f3 0%, #035eba 74%);
+  color: white;
+  background-color: #ddd;
+  font-size: large;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.btn-b:hover{
+  background-image: linear-gradient(147deg,  #9bb2c8f3 0%, #5487bb 74%);
+  color: #0d0f10;
+
+}
+
+.icon{
+  color:black;
+
+  padding: 10px;
+  border-radius: 50%;
+  
+}
+.icon:hover{
+  border: 1px solid #265DF2;
+  padding: 9px;
+  color:#265DF2;
+}
+
+/* Heder icon Margin */
+#navcol-11 > ul > li > a > i{
+  margin-right: 5px;
+  font-size: 20px;
+}
+
 /* Recebt News index page  */
 #recent-news{
   background-color: #e9ecef;
@@ -53,6 +92,7 @@ a{
   border-radius: 2.25rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+
   
 }
 
@@ -78,6 +118,15 @@ a{
   width: 100%;
   padding: 10px 0;
 }
+@media ((max-width: 575.98px)) {
+  #career-slide > div.blog-slider.swiper-container-fade.swiper-container-initialized.swiper-container-horizontal{
+    margin-bottom: 0px;
+
+  }
+  
+}
+
+
 .slide-content{
   margin: 0 40px;
   overflow: hidden;
