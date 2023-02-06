@@ -4,7 +4,18 @@
 Utility Classe
 
 */
+/* :root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Work Sans", sans-serif;
+} */
 
+/* Colors */
+:root {
+  --color-default:rgba(218, 218, 253, 0.275) ;
+  --color-primary: #265DF2;
+  --color-secondary: #e9ecef;
+}
 /* Variables */
 
 
