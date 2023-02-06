@@ -5,8 +5,11 @@ Utility Classe
 
 */
 
+/* Variables */
 
 
+body{
+}
 a{
   text-decoration: none;
   color: black;
@@ -19,6 +22,9 @@ a{
   margin-top: 0;
 }
 
+.bg-g{
+  background-color: #e9ecef;
+}
 
 .clean{
   padding: 40px;
@@ -211,6 +217,7 @@ a{
   background: #265DF2;
 }
 
+
 .swiper-navBtn{
   color: #6E93f7;
   transition: color 0.3s ease;
@@ -245,9 +252,102 @@ a{
     display: none;
   }
 }
+/* Features Section */
+#features .active{
+  color: #707070;
+  border-bottom: 1px solid black;
 
+}
+#features > div > ul > li > a{
+  color: #265DF2;
+}
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  padding: 15px 0;
+  transition: 0.3s;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  border-bottom: 4px solid #e2e4e6;
+}
+
+.features .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  .features .nav-link h4 {
+    font-size: 16px;
+  }
+}
+
+.features .nav-link:hover {
+  color: var(--color-primary);
+}
+
+.features .nav-link.active {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.features .tab-content {
+  margin-top: 30px;
+}
+
+.features .tab-pane h3 {
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.features .tab-pane h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  bottom: 0;
+}
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .tab-pane ul li {
+  padding-top: 10px;
+}
+
+.features .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--color-primary);
+}
+
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
 /* Blog News Page */
-
+/* New and News Detail Page */
 
 .blog .blog-pagination {
     margin-top: 30px;
@@ -788,8 +888,18 @@ a{
   
 
 
-/*Blog Details  Carousel-card */
+/* index-2page */
+#about-community{
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: .25rem;
+  margin:0.8rem ;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
 
+}
 
 /* Footer */
 
@@ -814,7 +924,7 @@ footer > div > div > div.offset-lg-1.col-lg-2.col-md-3.col-6 > div > ul > li a:h
 footer > div > div > div:nth-child(3) > div > ul > li a:hover,
 footer > div > div:nth-child(1) > div.col-lg-3.col-md-12 > div > ul > li a:hover  {
  color: #0d0f10;
- font-size:larger;
+ border-bottom: 1px solid black;
 }
 
 
