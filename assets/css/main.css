@@ -12,15 +12,14 @@ Utility Classe
 
 /* Colors */
 :root {
-  --color-default:rgba(218, 218, 253, 0.275) ;
+  --color-default:rgba(218, 218, 253, 0) ;
   --color-primary: #265DF2;
-  --color-secondary: #e9ecef;
+  --color-secondary: #010408;
 }
 /* Variables */
 
 
-body{
-}
+
 a{
   text-decoration: none;
   color: black;
@@ -35,6 +34,12 @@ a{
 
 .bg-g{
   background-color: #e9ecef;
+}
+.bg-gl{
+  background-color:#f8f9fa ;
+}
+.bg-b{
+  background-color: #36454F;
 }
 
 .clean{
@@ -112,7 +117,11 @@ a{
 
   
 }
-
+#services{
+  background-color: #e9ecef;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
 /* Alumni Members slider card */
 
 #alumni-slider > div > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
@@ -264,6 +273,7 @@ a{
   }
 }
 /* Features Section */
+
 #features .active{
   color: #707070;
   border-bottom: 1px solid black;
@@ -865,6 +875,21 @@ a{
   .recent-blog-posts .post-item:hover .post-img img {
     transform: scale(1.1);
   }
+#news{
+  color: #0d0f10;
+}
+
+
+#News-slider   div p {
+  width: 100%;
+ 
+  background: linear-gradient(rgba(131, 141, 152, 0.623), rgba(54, 46, 46, 0.992))
+}
+#News-slider   div  p  a:hover{
+  text-decoration: underline black;
+}
+
+
 
 
 
