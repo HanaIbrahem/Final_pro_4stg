@@ -576,13 +576,7 @@ thead {
 }
 
 
-/* Profile */
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-.border-primary {
-    --geeks-border-opacity: 1;
-    border-color: rgba(var(--geeks-primary-rgb), var(--geeks-border-opacity)) !important
-}
+
 
 .border-secondary {
     --geeks-border-opacity: 1;
@@ -1473,3 +1467,33 @@ Review
   margin-top: 0;
 }
 
+/*
+*********
+Event
+*********
+*/
+.avatar-sm {
+  height: 2rem;
+  width: 2rem;
+}
+
+.headevent {
+    color: var(--geeks-heading-color,inherit);
+    font-family: Inter,"sans-serif";
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+
+    font-size: 1.17em;
+    
+}
+/*
+******
+Single-Event
+*******
+*/
+.avatar-md {
+  height: 2.5rem;
+  width: 2.5rem;
+}
